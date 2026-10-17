@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js_project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h2 class="title">وب سایت کمک درسی و محاسبه نمره دانش آموزان</h2>
+      <div class="inputs" id="inputs">
+        <fieldset>
+          <legend>نمره هارا وارد کنید</legend>
+          <input
+            id="input"
+            class="input"
+            type="text"
+            placeholder="لطفا بین هر نمره علامت / را قرار دهید"
+          />
+        </fieldset>
+        <button type="button" class="btn" id="btn">شروع محاسبه</button>
+        <div class="boxes">
+          <nav class="box1-nav">
+            <h4>کمترین نمره</h4>
+            <p id="min-box" class="box1"></p>
+          </nav>
+          <nav class="box2-nav">
+            <h4>بالاترین نمره</h4>
+            <p id="maxbox" class="box2"></p>
+          </nav>
+          <nav class="box3-nav">
+            <h4>میانگین کل نمره ها</h4>
+            <p id="total" class="box3"></p>
+            <span id="totalname" class="box3"></span>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
